@@ -1,7 +1,3 @@
-¡Perfecto! 🚀 Te dejo un **README.md** listo para que lo uses directamente en tu repo de GitHub.
-
-Copia y pega esto en tu archivo `README.md` (en la raíz del proyecto, junto a `pom.xml`):
-
 ````markdown
 # 📌 User Subscription API
 
