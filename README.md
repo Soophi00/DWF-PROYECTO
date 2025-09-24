@@ -1,5 +1,5 @@
 ````markdown
-# 📌 User Subscription API
+#  User Subscription API
 
 API REST desarrollada con **Spring Boot 3** para la gestión de **Usuarios** y sus **Suscripciones**.  
 Incluye validaciones, manejo de excepciones, persistencia en **H2 Database**, y documentación con **Swagger UI**.  
@@ -26,7 +26,7 @@ Antes de ejecutar el proyecto asegúrate de tener instalado:
 
 ---
 
-## ▶️ Ejecución del proyecto
+##  Ejecución del proyecto
 
 1. Clona el repositorio:
    ```bash
@@ -45,22 +45,22 @@ Antes de ejecutar el proyecto asegúrate de tener instalado:
    ```
 
 La aplicación correrá en:
-👉 [http://localhost:8080](http://localhost:8080)
+ [http://localhost:8080](http://localhost:8080)
 
 ---
 
 ## 📖 Documentación Swagger
 
 Cuando el proyecto esté corriendo, entra a:
-👉 [http://localhost:8080/swagger-ui.html](http://localhost:8080/swagger-ui.html)
+[http://localhost:8080/swagger-ui.html](http://localhost:8080/swagger-ui.html)
 o
-👉 [http://localhost:8080/swagger-ui/index.html](http://localhost:8080/swagger-ui/index.html)
+[http://localhost:8080/swagger-ui/index.html](http://localhost:8080/swagger-ui/index.html)
 
 ---
 
-## 🔹 Endpoints principales
+##  Endpoints principales
 
-### 👤 Users
+###  Users
 
 * **POST** `/api/users` → Crear usuario
 * **GET** `/api/users/{id}` → Obtener usuario por ID
@@ -68,7 +68,7 @@ o
 * **DELETE** `/api/users/{id}` → Eliminar usuario
 * **GET** `/api/users?q=texto&page=0&size=10&sort=id,asc` → Listar usuarios con paginación y búsqueda
 
-### 📦 Subscriptions
+###  Subscriptions
 
 * **POST** `/api/subscriptions` → Crear suscripción
 * **GET** `/api/subscriptions/{id}` → Obtener suscripción por ID
@@ -104,13 +104,13 @@ POST /api/subscriptions
 
 ---
 
-## 📦 Colección Postman
+##  Colección Postman
 
 Se incluye una colección de **Postman** (`UserSubscriptionAPI.postman_collection.json`) con los endpoints listos para probar.
 
 ---
 
-## 👨‍💻 Autores
+##  Autores
 
 * Sophia Marcela Guzman Ayala
 * Marcelo Jose Almendarez Ramirez
