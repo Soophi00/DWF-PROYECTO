@@ -47,9 +47,11 @@ Antes de ejecutar el proyecto asegúrate de tener instalado:
 La aplicación correrá en:
  [http://localhost:8080](http://localhost:8080)
 
+ H2 Console: http://localhost:8080/h2-console
+
 ---
 
-## 📖 Documentación Swagger
+## Documentación Swagger
 
 Cuando el proyecto esté corriendo, entra a:
 [http://localhost:8080/swagger-ui.html](http://localhost:8080/swagger-ui.html)
@@ -57,6 +59,7 @@ o
 [http://localhost:8080/swagger-ui/index.html](http://localhost:8080/swagger-ui/index.html)
 
 ---
+
 
 ##  Endpoints principales
 
